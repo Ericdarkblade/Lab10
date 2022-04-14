@@ -60,14 +60,19 @@ public class Main {
                     throw new RuntimeException(e);
                 }
                 System.out.println("Average Age is: " + Average);
-            }
-            else if (selection == 5) {
+            } else if (selection == 5) {
                 try {
                     FileIO.sortPatientsByAge(filePath);
                 } catch (FileNotFoundException e) {
                     throw new RuntimeException(e);
                 }
                 System.out.println("Sorted Patients by Age");
+            } else if (selection == 6) {
+                System.out.println("\nA: Sort by First Name");
+                System.out.println("B: Sort by Last Name");
+                String option =
+                if ()
+
             }
         }
     }
